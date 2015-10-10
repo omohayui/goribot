@@ -18,5 +18,5 @@ module.exports = (robot) ->
           title = item.title
           link  = item.link
           article += "#{title} #{link}¥n"
-        robot.send {room:"ROOM_ID"}, article
+        robot.send {room:"#baseball"}, article
   , null, true, "Asia/Tokyo"
