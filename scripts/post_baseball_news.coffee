@@ -2,7 +2,7 @@
 #   定期的に野球ニュースを投下するゴリ
 #   "baseball news" でも反応するゴリ
 # Commands:
-#   baseball news - Nikkanプロ野球ニュースをpostするゴリ
+#   baseball news - Nikkanプロ野球ニュースを #baseball にpostするゴリ
 
 cronJob = require('cron').CronJob
 to_json = require('xmljson').to_json
