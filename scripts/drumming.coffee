@@ -1,10 +1,10 @@
 # Description:
 #   ドラミングするゴリ
 # Commands:
-#   ドラミング - ウホウホホ
+#   goribot ドラミング - ウホウホホ
 
 module.exports = (robot) ->
-  robot.hear /ドラミング/i, (msg) ->
+  robot.respond /ドラミング/i, (msg) ->
     msg.send msg.random [
       "http://img.gifmagazine.net/gifmagazine/images/34803/original.gif",
       "http://stream1.gifsoup.com/view1/3218586/baby-ape-o.gif",
