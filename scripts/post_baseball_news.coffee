@@ -5,7 +5,7 @@ cronJob = require('cron').CronJob
 to_json = require('xmljson').to_json
 request = require 'request'
 module.exports = (robot) ->
-  new cronJob '00 * * * * *', () =>
+  new cronJob '00 10 * * * *', () =>
     url = "http://feed.rssad.jp/rss/nikkansports/professional/atom.xml"
     options =
       url: url
@@ -18,6 +18,6 @@ module.exports = (robot) ->
         for id, entry of data["feed"].entry when id < limit
           title = entry.title
           link  = entry.id
-          article += "#{title}\n#{link}\n" unless /^PR.*/.test(title)
+          article += "#{link}\n" unless /^PR.*/.test(title)
         robot.send {room:"#baseball"}, article
   , null, true, "Asia/Tokyo"
