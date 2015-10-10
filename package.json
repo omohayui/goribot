@@ -2,7 +2,7 @@
   "name": "goribot",
   "version": "0.0.0",
   "private": true,
-  "author": "yui.takeuchi <omohayui@gmail.com>",
+  "author": "omohayui <omohayui@gmail.com>",
   "description": "A helpful robot for Gorilla",
   "dependencies": {
     "hubot": "^2.16.0",
@@ -17,7 +17,10 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.3.0"
+    "hubot-slack": "^3.3.0",
+    "cron": "^1.0.9",
+    "request": "^2.64.0",
+    "xmljson": "^0.2.0"
   },
   "engines": {
     "node": "0.10.x"
