@@ -1,7 +1,7 @@
 # Description:
 #   召喚するゴリ
 # Commands:
-#   ゴリラ召喚
+#   ゴリラ召喚 - 口さんのためにゴリラを召喚する
 
 module.exports = (robot) ->
   robot.hear /ゴリラ召喚/i, (msg) ->

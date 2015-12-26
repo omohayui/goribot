@@ -1,0 +1,29 @@
+gorilla:
+  width: 3
+  height: 3
+  images:
+    - ':mu:'
+    - ':gori_1:'
+    - ':gori_2:'
+    - ':gori_3:'
+    - ':gori_4:'
+    - ':gori_5:'
+    - ':gori_6:'
+    - ':gori_7:'
+    - ':gori_8:'
+    - ':gori_9:'
+
+cat:
+  width: 3
+  height: 3
+  images:
+    - ':mu:'
+    - ':cat_k_1:'
+    - ':cat_k_2:'
+    - ':cat_k_3:'
+    - ':cat_k_4:'
+    - ':cat_k_5:'
+    - ':cat_k_6:'
+    - ':cat_k_7:'
+    - ':cat_k_8:'
+    - ':cat_k_9:'
