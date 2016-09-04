@@ -23,7 +23,7 @@ post_news = (robot, limit) ->
         article += "#{link}\n" unless /^PR.*/.test(title)
       robot.send {room:"#baseball"}, article
 module.exports = (robot) ->
-  new cronJob '00 00 10 * * *', () =>
+  new cronJob '00 00 10 * * 1-5', () =>
     post_news(robot, limit)
   , null, true, "Asia/Tokyo"
   robot.hear /baseball news/i, () ->
